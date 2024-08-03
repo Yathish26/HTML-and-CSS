@@ -1,0 +1,102 @@
+*{
+    margin:0px;
+    font-family: sans-serif;
+    
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.outer-box{
+    width: 395px;
+    height: 350px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid #f0cfcf;
+    border-radius: 19px;
+    box-shadow: 0px 0px 3px 1px #d9caca;
+}
+
+.food-title{
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+}
+
+.food-category{
+    margin: 10px;
+    padding:10px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-left: 0px;
+}
+
+.safety-message{
+    margin: 10px;
+    padding:10px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-left: 0px;
+    color: grey;
+}
+
+.image-container {
+    position: relative;
+    width: 374px;
+    margin: 10px;
+    height: 192px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 14px;
+}
+
+.image-container .promoted,
+.image-container .offer-tag,
+.image-container .time-duration {
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+    padding: 5px;
+    border-radius: 3px;
+}
+
+ .image-container .offer-tag{
+    background-color: #125ddb;
+ }
+
+.image-container .promoted {
+    top: 10px;
+    left: 10px;
+    background-color: #4f4f4f;
+    border-radius: 6px;
+}
+
+.image-container .offer-tag {
+    top: 10px;
+    right: 0px;
+}
+
+.image-container .time-duration {
+    bottom: 10px;
+    right: 9px;
+    border-radius: 4px;
+    background-color: #dcdada;
+    color: grey;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 3px 7px;
+}

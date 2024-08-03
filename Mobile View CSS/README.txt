@@ -1,0 +1,1 @@
+This is a Mobile View and PC view CSS where this is just a Simple Demonstration of how basic things to look in the Mobile Screen Width and PC or larger screen width.

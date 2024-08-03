@@ -1,0 +1,26 @@
+*{
+    font-family: sans-serif;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mobile{
+    visibility: collapse;
+}
+
+@media only screen and (max-width:430px){
+    .pc{
+        visibility: collapse;
+    }
+
+    .mobile{
+        visibility: visible;
+    }
+
+}
