@@ -1,0 +1,322 @@
+*{
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+}
+
+.sidenav{
+    width: 16%;
+    height: 100%;
+    position: fixed;
+}
+
+.logobox{
+    width: 100%;
+    height: 106px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.logobox>svg{
+    margin: 10px;
+    padding: 10px;
+    position:absolute;
+
+}
+
+.optionsbox{
+    width: 100%;
+    height: 66%; 
+}
+p{
+    font-size: 16px;
+    padding-top: 5px;
+}
+.home,.search,.explore,.reels,.messages,.notifications,.create,.profile,.threads,.more{
+    display: flex;
+    align-items: center;
+    margin: 4px 0px;
+    padding: 12px 25px;
+    gap: 14px;
+}
+.profile>img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.addonbox{
+    width: 100%;
+    height: 20%;
+}
+
+.contentbox{
+    width: 84%;
+    display: flex;
+    justify-content: center;
+    padding-left: 16%;
+}
+
+.scrollabel-content{
+    width: 630px;
+    
+}
+
+.suggestion-box{
+    width: 383px;
+    height: 100%;
+    padding-left: 18px;
+}
+
+.stories-section{
+    width: 100%;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    overflow: scroll;
+    padding-left: 5px;
+}
+
+.stories-section::-webkit-scrollbar{
+    display: none;
+}
+
+.user{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+}
+
+.userimage>img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+.post-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.content-border{
+    width: 468px;
+    height: 85%;
+}
+
+.post-box{
+    width: 100%;
+    height: 554px;
+    margin: 0px 0px 12px 0px;
+}
+.dp{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.dp-name-time{
+    display: flex;
+    align-items: center;
+    margin: 10px 2px;
+    gap: 5px;
+    position: relative;
+}
+
+.dp-name-time>svg{
+    position:absolute;
+    right:4px;
+}
+
+.post-username{
+    font-weight:600;
+    font-size: 14px;
+}
+
+.post-photo-inner{
+    position: relative;
+    display: inline-block;
+}
+
+.post-photo{
+    width: 468px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    border-radius: 2px; 
+    
+}
+
+.tags-icon{
+    color:white;
+    background-color:black;
+    padding: 7px;
+    border-radius: 50%;
+    position:absolute;
+    bottom: 14px;
+    left: 11px;
+}
+
+.interacting-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px 0px;
+}
+
+.like-comment-share{
+    display: flex;
+    gap: 13px;
+}
+
+.comment-component{
+    display: flex;
+    position: relative;
+}
+
+.emoji{
+    position:absolute;
+    right:5px;
+
+}
+
+.likes,.post-caption,.all-comments,.comment-component{
+    padding: 2px 0px;
+}
+
+.all-comments,.add-comment{
+    font-size: 14px;
+    color: #a8a8a8;
+}
+
+.suggested-image{
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-dp{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.profile-section{
+    display: flex;
+    padding: 5px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-tab{
+    display: flex;
+    margin: 10px 10px 5px 10px;
+    padding: 10px 10px 5px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-twin{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    align-items: center;
+}
+
+.suggested-box{
+    margin: 0px 10px 10px 10px;
+    padding: 0px 10px 10px 10px;
+}
+
+.name-nd-suggested{
+    padding: 0px 10px;
+}
+
+.username-name{
+    padding-left:10px ;
+}
+
+.image-n-suggested{
+    display: flex;
+}
+
+.follow,.switch{
+    color:#0095f6;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.terms,.cpterms{
+    color:#737373;
+    font-size: 12px;
+    margin: 4px 10px;
+    padding: 0px 10px;
+}
+
+.cpterms{
+    margin-top:22px;;
+}
+
+.sug,.s{
+    color:#a8a8a8;
+}
+
+.sug{
+    font-size: 14px;
+}
+
+.s{
+    font-size:12px;
+}
+
+.name{
+    font-size: 14px;
+    color: #a8a8a8;
+}
+.see{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.likes{
+    font-weight: 600;
+    font-size: 14px;
+    padding: 5px 0px;
+}   
+
+.time{
+    font-size:14px;
+    color:#a8a8a8;
+}
+.username{
+    font-size: 12px;
+}
+
+.userimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px; /* Adjust the size as needed */
+    height: 60px; /* Adjust the size as needed */
+    border-radius: 50%;
+    background: linear-gradient(45deg, #e8e70c 0%, #e6b13c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    padding: 2px; /* Adjust the padding to create the ring effect */
+}
