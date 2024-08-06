@@ -17,6 +17,7 @@ body{
     width: 16%;
     height: 100%;
     position: fixed;
+    border-right: 1px solid #282626;
 }
 
 .logobox{
@@ -325,3 +326,8 @@ p{
     fill:red;
     cursor: pointer;
 }
+
+.liked{
+    width:24px;
+  }
+
