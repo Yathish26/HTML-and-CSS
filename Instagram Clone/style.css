@@ -320,3 +320,8 @@ p{
     background: linear-gradient(45deg, #e8e70c 0%, #e6b13c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     padding: 2px; /* Adjust the padding to create the ring effect */
 }
+
+.like:hover{
+    fill:red;
+    cursor: pointer;
+}
